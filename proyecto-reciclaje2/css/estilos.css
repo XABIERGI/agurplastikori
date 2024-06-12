@@ -1,0 +1,85 @@
+css
+Copiar código
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://www.example.com/path-to-your-nature-background.jpg') no-repeat center center fixed; /* Asegúrate de reemplazar esta URL con la de tu imagen */
+    background-size: cover;
+    color: #2f4f2f;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(76, 175, 80, 0.8); /* Fondo semitransparente */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+section {
+    padding: 2em;
+    max-width: 1200px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em;
+}
+
+h2 {
+    color: #2e8b57;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: #006400;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 1em;
+}
+
+.videos iframe {
+    width: 100%;
+    height: 315px;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    border: 2px solid #2e8b57;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container > div {
+        flex: 1;
+        margin: 0 1em;
+    }
+}
